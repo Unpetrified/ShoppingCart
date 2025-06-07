@@ -1,11 +1,11 @@
 import Footer from "./footer";
 import Header from "./header";
 
-export default function Cart() {
+export default function ErrorPage() {
   return (
     <>
       <Header />
-      <h1>This is the cart page</h1>
+      <h1>This is the error page</h1>
       <Footer />
     </>
   );
