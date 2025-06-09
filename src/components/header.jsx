@@ -4,8 +4,9 @@ export default function Header() {
   return (
     <header>
       <div>
-        <h1>logo</h1>
-        <h1>Some Shop</h1>
+        <Link to="/">
+          <img src="/assets/Lune.png" alt="" />
+        </Link>
       </div>
       <nav>
         <ul>
