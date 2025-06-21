@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header img {
+  width: 100px;
+  aspect-ratio: 1/1;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+ul li {
+  list-style-type: none;
+  font-weight: bold;
+  background-color: #c53a64;
+  border-radius: 100px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  transition-property: scale;
+  padding: 5px 0;
+}
+
+ul li:hover {
+  background-color: #c01f55;
+  scale: 1.1;
+}
+
+ul a {
+  padding: 0px 15px;
+  color: white;
+  text-decoration: none;
+}

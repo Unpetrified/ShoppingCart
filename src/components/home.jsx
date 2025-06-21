@@ -1,9 +1,10 @@
+import styles from "../style/home.module.css";
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <main>
-      <section className="heading">
+      <section className={styles.heading}>
         <h2>Indulge in Dreamlike Comfort</h2>
         <h4>
           Discover nightwear that blends elegance with comfort. From silky

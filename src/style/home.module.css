@@ -1,0 +1,45 @@
+main {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 25px;
+  background-color: pink;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin: 5px;
+}
+
+.heading h4 {
+  width: 650px;
+  text-align: center;
+  margin: 5px;
+}
+
+.heading button {
+  background-color: transparent;
+  border: none;
+  margin: 20px;
+}
+
+.heading a {
+  background-color: #c53a64;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
